@@ -4,6 +4,19 @@ Package to give support for [dirkbonhomme/pusher-js-auth](https://github.com/dir
 
 Registers the `/broadcasting/auth/batch` route, send your auth requests there instead.
 
+```php
+// routes/web.php
+Route::pusherBatchAuth();
+```
+
+You may need to add an exemption in your `app/Http/Middleware/VerifyCsrfToken.php` for this route.
+
+```php
+protected $except = [
+    'broadcasting/auth/batch'
+];
+```
+
 
 Example:
 
