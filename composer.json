@@ -1,0 +1,28 @@
+{
+    "name": "hjbdev/laravel-pusher-batch-auth",
+    "description": "A package to support the dirkbonhomme/pusher-js-auth npm package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hjbdev",
+            "email": "harry@hjb.dev"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^7.0|^8.0",
+        "illuminate/http": "^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HJBDev\\LaravelPusherBatchAuth\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HJBDev\\LaravelPusherBatchAuth"
+            ]
+        }
+    }
+}
