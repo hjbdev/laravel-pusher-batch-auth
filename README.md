@@ -2,6 +2,13 @@
 
 Package to give support for [dirkbonhomme/pusher-js-auth](https://github.com/dirkbonhomme/pusher-js-auth) into Laravel.
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/hjbdev/laravel-pusher-batch-auth.svg?style=flat-square)](https://packagist.org/packages/hjbdev/laravel-pusher-batch-auth)
+[![Total Downloads](https://img.shields.io/packagist/dt/hjbdev/laravel-pusher-batch-auth.svg?style=flat-square)](https://packagist.org/packages/hjbdev/laravel-pusher-batch-auth)
+
+```bash
+composer require hjbdev/laravel-pusher-batch-auth
+```
+
 Registers the `/broadcasting/auth/batch` route, send your auth requests there instead.
 
 ```php
